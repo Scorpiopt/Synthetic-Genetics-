@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SyntheticGenetics.MakeRecipeLabel>make {0}</SyntheticGenetics.MakeRecipeLabel>
+	<SyntheticGenetics.MakeRecipeDescription>Make a {0}.</SyntheticGenetics.MakeRecipeDescription>
+	<SyntheticGenetics.MakeRecipeJobLabel>Crafting {0}.</SyntheticGenetics.MakeRecipeJobLabel>
+	
+</LanguageData>
