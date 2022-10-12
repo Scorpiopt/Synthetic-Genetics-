@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="GR_GenoframeRecipeBase">
+		<defName>SG_GenoframeRecipe</defName>
+		<label>Craft Genoframe</label>
+		<description>Create a genoframe with random quality.</description>
+		<recipeUsers Inherit="False">
+			<li>GR_GeneticsTinkeringTable</li>
+		</recipeUsers>
+		<researchPrerequisite>SG_SyntheticMadness</researchPrerequisite>
+		<unfinishedThingDef IsNull="True"/>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>200</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<thingDefs>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<thingDefs>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+	</RecipeDef>
+</Defs>

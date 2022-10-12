@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>SG_SyntheticMadness</defName>
+		<label>synthetic madness</label>
+		<tab>GR_GeneticReseach</tab>
+		<techLevel>Spacer</techLevel>
+		<description>Create genomes and genoframes at the genetics tinkering table.</description>
+		<baseCost>8000</baseCost>
+		<prerequisites>
+			<li>GR_GeneticMechahybridization</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
